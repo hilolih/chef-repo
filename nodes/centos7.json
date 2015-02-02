@@ -1,0 +1,9 @@
+{
+  "run_list": [
+     "recipe[base]",
+     "recipe[rbenv]" 
+  ],
+  "automatic": {
+    "ipaddress": "centos7"
+  }
+}
