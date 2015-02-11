@@ -53,7 +53,9 @@ end
 
 
 %w{
+  bundler
   pry
+  pry-doc
 }.each do |gem|
   execute "install ruby #{gem}" do
     command "source #{RBENV_SCRIPT}; gem install #{gem}; rbenv rehash"

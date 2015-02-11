@@ -6,7 +6,16 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-%w{zsh vim git man lsof ruby}.each do |pkg|
+%w{
+  zsh 
+  vim 
+  git 
+  man 
+  lsof
+  ruby
+  ImageMagick 
+  ImageMagick-devel
+}.each do |pkg|
   package pkg do
     action :install
   end
