@@ -15,6 +15,7 @@
   ruby
   ImageMagick 
   ImageMagick-devel
+  lftp
 }.each do |pkg|
   package pkg do
     action :install

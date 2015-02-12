@@ -1,0 +1,6 @@
+##
+# /etc/sysconfig/i18n
+##
+LANG="ja_JP.SJIS"
+SUPPORTED="ja_JP.SJIS:ja_JP:ja"
+SYSFONT="latarcyrheb-sun16"

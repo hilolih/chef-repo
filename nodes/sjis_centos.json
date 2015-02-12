@@ -1,0 +1,11 @@
+{
+  "run_list": [
+     "recipe[base]",
+     "recipe[iptables]",
+     "recipe[php]",
+     "recipe[sjis]" 
+  ],
+  "automatic": {
+    "ipaddress": "sjis_centos"
+  }
+}
