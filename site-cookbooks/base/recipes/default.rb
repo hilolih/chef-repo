@@ -16,6 +16,7 @@
   ImageMagick 
   ImageMagick-devel
   lftp
+  ntp
 }.each do |pkg|
   package pkg do
     action :install
@@ -78,3 +79,16 @@ end
 #  EOL
 #  not_if "git remote -v | grep origin"
 #end
+
+
+service "ntpd" do
+  action [:enable, :start]
+end
+
+cookbook_file "ntp.conf" do
+  mode 0644
+  owner "root"
+  group "root"
+  path "/etc/ntp.conf"
+  not_if "grep mfeed /etc/ntp.conf"
+end
