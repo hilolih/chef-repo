@@ -4,6 +4,7 @@
      "recipe[timezone]",
      "recipe[rbenv]",
      "recipe[mongodb]",
+     "recipe[fluentd]",
      "recipe[java]" 
   ],
   "automatic": {
