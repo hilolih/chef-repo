@@ -17,6 +17,7 @@
   ImageMagick-devel
   lftp
   ntp
+  patch
 }.each do |pkg|
   package pkg do
     action :install
