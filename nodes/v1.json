@@ -4,6 +4,7 @@
      "recipe[timezone]",
      "recipe[rbenv]",
      "recipe[mongodb]",
+     "recipe[elasticsearch]",
      "recipe[fluentd]",
      "recipe[java]" 
   ],
