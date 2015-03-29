@@ -3,6 +3,7 @@
      "recipe[base]",
      "recipe[iptables]",
      "recipe[php]",
+     "recipe[timezone]",
      "recipe[sjis]" 
   ],
   "automatic": {
