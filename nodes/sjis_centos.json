@@ -4,6 +4,7 @@
      "recipe[iptables]",
      "recipe[php]",
      "recipe[timezone]",
+     "recipe[vsftpd]",
      "recipe[sjis]" 
   ],
   "automatic": {
